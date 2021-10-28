@@ -1,33 +1,47 @@
-#!MANAGED-CONFIG https://pub-api-1.bianyuan.xyz/sub?target=surge&ver=2&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FNoyaxD%2FfdasGOdfsafsaDfasd56f4as%40main%2FREADME.md&insert=false interval=86400 strict=false
+#!MANAGED-CONFIG https://pub-api-1.bianyuan.xyz/sub?target=surfboard&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FNoyaxD%2FfdasGOdfsafsaDfasd56f4as%40main%2Ftest.md&insert=false interval=86400 strict=false
 
 [General]
 loglevel = notify
-bypass-system = true
-skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
-#DNS设置或根据自己网络情况进行相应设置
-bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
-dns-server = 119.29.29.29,223.5.5.5
-
-[Script]
-http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+interface = 127.0.0.1
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = false
+dns-server = system, 223.5.5.5
+exclude-simple-hostnames = true
+enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-♻️ 自动选择 = direct
+V2ray-HeroKu-美国1[Source] = vmess, xdmyapp.herokuapp.com, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=xdmyapp.herokuapp.com, ws-headers=Host:xdmyapp.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-HeroKu-美国1[IP优选-US] = vmess, 104.19.39.55, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-HeroKu-美国1[IP优选-HK] = vmess, 104.16.151.251, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-HeroKu-美国1-移动优化 = vmess, 104.16.241.62, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-HeroKu-美国2[Source] = vmess, xdmytwapp.herokuapp.com, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=xdmytwapp.herokuapp.com, ws-headers=Host:xdmytwapp.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-HeroKu-美国2[IP优选-US] = vmess, 104.19.39.55, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-HeroKu-美国2[IP优选-HK] = vmess, 104.16.151.251, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-HeroKu-美国2-移动优化 = vmess, 104.16.241.62, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-美国3[Source] = vmess, myappsonex7.herokuapp.com, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=myappsonex7.herokuapp.com, ws-headers=Host:myappsonex7.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-美国3[IP优选-US] = vmess, 104.19.39.55, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-美国3[IP优选-HK] = vmess, 104.16.151.251, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-美国3-移动优化 = vmess, 104.16.241.62, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-欧洲1[Source] = vmess, myapptwox7.herokuapp.com, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=myapptwox7.herokuapp.com, ws-headers=Host:myapptwox7.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-欧洲1[IP优选-US] = vmess, 104.19.39.55, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-欧洲1[IP优选-HK] = vmess, 104.16.151.251, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-HeroKu-欧洲1-移动优化 = vmess, 104.16.241.62, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
 🎯 全球直连 = direct
 
 [Proxy Group]
-🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连
-🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连
+🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
+♻️ 自动选择 = url-test,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化,url=http://www.gstatic.com/generate_204,interval=300,timeout=5
+🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
 ⛔️ 广告拦截 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
 🚫 运营劫持 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
-🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连
+🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
 🌏 国内媒体 = select,🎯 全球直连,🔰 节点选择
-Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择
-📲 电报信息 = select,🔰 节点选择,🎯 全球直连
-🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择
+Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
+📲 电报信息 = select,🔰 节点选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
+🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择
+🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
 
 [Rule]
 DOMAIN-SUFFIX,local,🎯 全球直连
@@ -115,10 +129,6 @@ DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
 DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
 DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
 DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
-USER-AGENT,archero*,🎯 全球直连
-USER-AGENT,coffeecorp*,🎯 全球直连
-USER-AGENT,Coffee%20Corp*,🎯 全球直连
-USER-AGENT,restaurant-mobile*,🎯 全球直连
 DOMAIN,app.adjust.com,🎯 全球直连
 DOMAIN,bdtj.tagtic.cn,🎯 全球直连
 DOMAIN,log.mmstat.com,🎯 全球直连
@@ -9023,7 +9033,6 @@ DOMAIN-SUFFIX,yihuifu.cn,🛑 全球拦截
 DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
 DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
 DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
-USER-AGENT,Argo*,🎥 NETFLIX
 DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
 DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
 DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
@@ -9059,48 +9068,33 @@ DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
 DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
 DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
 DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-USER-AGENT,Deezer*,🌍 国外媒体
 DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
 DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
-USER-AGENT,JOOX*,🌍 国外媒体
-USER-AGENT,WeMusic*,🌍 国外媒体
 DOMAIN-SUFFIX,joox.com,🌍 国外媒体
 DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
 DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
 DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
 DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
-USER-AGENT,Pandora*,🌍 国外媒体
 DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
-USER-AGENT,SoundCloud*,🌍 国外媒体
 DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
 DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
 DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-USER-AGENT,Spotify*,🌍 国外媒体
 DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
 DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
 DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
 DOMAIN-SUFFIX,spoti.fi,🌍 国外媒体
 DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
 DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
-USER-AGENT,TIDAL*,🌍 国外媒体
 DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
-USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
-USER-AGENT,YouTubeMusic*,🌍 国外媒体
-USER-AGENT,Himalaya*,🌍 国外媒体
 DOMAIN-SUFFIX,himalaya.com,🌍 国外媒体
-USER-AGENT,Overcast*,🌍 国外媒体
 DOMAIN-SUFFIX,overcast.fm,🌍 国外媒体
-USER-AGENT,AbemaTV*,🌍 国外媒体
 DOMAIN-SUFFIX,abema.io,🌍 国外媒体
 DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
 DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
 DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
 DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
-USER-AGENT,All4*,🌍 国外媒体
 DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
 DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
-USER-AGENT,InstantVideo.US*,🌍 国外媒体
-USER-AGENT,Prime%20Video*,🌍 国外媒体
 DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
 DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
 DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
@@ -9118,12 +9112,10 @@ DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
 DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
 DOMAIN,linear.tv.apple.com,🌍 国外媒体
 DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
-USER-AGENT,Anime*,🌍 国外媒体
 DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
 DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
 DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
 DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
-USER-AGENT,BBCiPlayer*,🌍 国外媒体
 DOMAIN-SUFFIX,bbc.co.uk,🌍 国外媒体
 DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
 DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
@@ -9134,21 +9126,17 @@ DOMAIN,p.bstarstatic.com,🌍 国外媒体
 DOMAIN,p-bstarstatic.akamaized.net,🌍 国外媒体
 DOMAIN,upos-bstar-mirrorakam.akamaized.net,🌍 国外媒体
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🌍 国外媒体
-USER-AGENT,DAZN*,🌍 国外媒体
 DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
 DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
 DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
 DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
 DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
 DOMAIN-KEYWORD,voddazn,🌍 国外媒体
-USER-AGENT,DPlus*,🌍 国外媒体
-USER-AGENT,discovery+*,🌍 国外媒体
 DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
 DOMAIN-SUFFIX,discoveryplus.co.uk,🌍 国外媒体
 DOMAIN-SUFFIX,discoveryplus.com,🌍 国外媒体
 DOMAIN-SUFFIX,discoveryplus.in,🌍 国外媒体
 DOMAIN-SUFFIX,dnitv.com,🌍 国外媒体
-USER-AGENT,Disney+*,🌍 国外媒体
 DOMAIN-SUFFIX,bamgrid.com,🌍 国外媒体
 DOMAIN-SUFFIX,disneyplus.com,🌍 国外媒体
 DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
@@ -9158,18 +9146,14 @@ DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
 DOMAIN-SUFFIX,dmm.co.jp,🌍 国外媒体
 DOMAIN-SUFFIX,dmm.com,🌍 国外媒体
 DOMAIN-SUFFIX,dmm-extension.com,🌍 国外媒体
-USER-AGENT,encoreTVB*,🌍 国外媒体
 DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
 DOMAIN,edge.api.brightcove.com,🌍 国外媒体
 DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
-USER-AGENT,HBO%20NOW*,🌍 国外媒体
 DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
 DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
 DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-USER-AGENT,HBOMAX*,🌍 国外媒体
 DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
 DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
-USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
 DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
 DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
 DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
@@ -9188,7 +9172,6 @@ DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
 DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
 DOMAIN,players.brightcove.net,🌍 国外媒体
 DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
-USER-AGENT,HWTVMobile*,🌍 国外媒体
 DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
 DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
 DOMAIN-SUFFIX,hulu.com,🌍 国外媒体
@@ -9197,7 +9180,6 @@ DOMAIN-SUFFIX,hulustream.com,🌍 国外媒体
 DOMAIN-SUFFIX,happyon.jp,🌍 国外媒体
 DOMAIN-SUFFIX,hjholdings.jp,🌍 国外媒体
 DOMAIN-SUFFIX,hulu.jp,🌍 国外媒体
-USER-AGENT,ITV_Player*,🌍 国外媒体
 DOMAIN-SUFFIX,itv.com,🌍 国外媒体
 DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
 DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
@@ -9219,29 +9201,22 @@ IP-CIDR,203.211.4.193/32,🌍 国外媒体,no-resolve
 IP-CIDR,210.71.227.202/32,🌍 国外媒体,no-resolve
 IP-CIDR,210.201.32.8/32,🌍 国外媒体,no-resolve
 IP-CIDR,210.201.32.11/32,🌍 国外媒体,no-resolve
-USER-AGENT,KKTV*,🌍 国外媒体
-USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
 DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
 DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
 DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
-USER-AGENT,LINE%20TV*,🌍 国外媒体
 DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
 DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
 DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
 DOMAIN-SUFFIX,api.mgtv.com,🌍 国外媒体
 DOMAIN,mobileso.bz.mgtv.com,🌍 国外媒体
-USER-AGENT,My5*,🌍 国外媒体
 DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
 DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
 DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
-USER-AGENT,mytv*,🌍 国外媒体
 DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
 DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-USER-AGENT,Naver%20TV*,🌍 国外媒体
 DOMAIN-SUFFIX,naver.com,🌍 国外媒体
 DOMAIN-SUFFIX,smartmediarep.com,🌍 国外媒体
-USER-AGENT,Argo*,🌍 国外媒体
 DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
 DOMAIN-SUFFIX,netflix.net,🌍 国外媒体
 DOMAIN-SUFFIX,nflxext.com,🌍 国外媒体
@@ -9273,13 +9248,11 @@ IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
 IP-CIDR,34.210.42.111/32,🌍 国外媒体,no-resolve
 IP-CIDR,52.89.124.203/32,🌍 国外媒体,no-resolve
 IP-CIDR,54.148.37.5/32,🌍 国外媒体,no-resolve
-USER-AGENT,Niconico*,🌍 国外媒体
 DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
 DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
 DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
 DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
 DOMAIN-SUFFIX,nowestatic.com,🌍 国外媒体
-USER-AGENT,PPlus*,🌍 国外媒体
 DOMAIN-SUFFIX,cbsi.com,🌍 国外媒体
 DOMAIN-SUFFIX,cbsaavideo.com,🌍 国外媒体
 DOMAIN-SUFFIX,cbsivideo.com,🌍 国外媒体
@@ -9289,18 +9262,14 @@ DOMAIN,cbsi.live.ott.irdeto.com,🌍 国外媒体
 DOMAIN,cbsplaylistserver.aws.syncbak.com,🌍 国外媒体
 DOMAIN,cbsservice.aws.syncbak.com,🌍 国外媒体
 DOMAIN,link.theplatform.com,🌍 国外媒体
-USER-AGENT,PBS*,🌍 国外媒体
 DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-USER-AGENT,PeacockMobile*,🌍 国外媒体
 DOMAIN-SUFFIX,peacocktv.com,🌍 国外媒体
 DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
 DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
 DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
 DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
-USER-AGENT,TaiwanGood*,🌍 国外媒体
 DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
 DOMAIN,hamifans.emome.net,🌍 国外媒体
-USER-AGENT,TikTok*,🌍 国外媒体
 DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
 DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
 DOMAIN-SUFFIX,muscdn.com,🌍 国外媒体
@@ -9310,29 +9279,22 @@ DOMAIN-SUFFIX,tik-tokapi.com,🌍 国外媒体
 DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
 DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
 DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
-USER-AGENT,TVer-Release*,🌍 国外媒体
 DOMAIN-SUFFIX,tver.jp,🌍 国外媒体
 DOMAIN,edge.api.brightcove.com,🌍 国外媒体
-USER-AGENT,Viu*,🌍 国外媒体
 DOMAIN-SUFFIX,viu.com,🌍 国外媒体
 DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
 DOMAIN,api.viu.now.com,🌍 国外媒体
 DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
 DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
 DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
-USER-AGENT,WeTV*,🌍 国外媒体
 DOMAIN-SUFFIX,wetv.vip,🌍 国外媒体
 DOMAIN-SUFFIX,wetvinfo.com,🌍 国外媒体
 IP-CIDR,150.109.28.51/32,🌍 国外媒体,no-resolve
-USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
-USER-AGENT,YouTube*,🌍 国外媒体
 DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
 DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
 DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
 DOMAIN,youtubei.googleapis.com,🌍 国外媒体
 DOMAIN,yt3.ggpht.com,🌍 国外媒体
-USER-AGENT,bili*,🌏 国内媒体
-USER-AGENT,Bilibili*,🌏 国内媒体
 DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
 DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
 DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
@@ -9345,8 +9307,6 @@ DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
 DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
 DOMAIN-SUFFIX,im9.com,🌏 国内媒体
 DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
-USER-AGENT,iQIYI*,🌏 国内媒体
-USER-AGENT,QYPlayer*,🌏 国内媒体
 DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
 DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
 DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
@@ -9361,10 +9321,7 @@ IP-CIDR,118.26.32.0/23,🌏 国内媒体,no-resolve
 IP-CIDR,223.119.62.225/28,🌏 国内媒体,no-resolve
 IP-CIDR,23.40.241.251/32,🌏 国内媒体,no-resolve
 IP-CIDR,23.40.242.10/32,🌏 国内媒体,no-resolve
-URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com,🌏 国内媒体
 DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
-USER-AGENT,MOO*,🌏 国内媒体
-USER-AGENT,TencentMidasConnect*,🌏 国内媒体
 DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
 DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
 IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
@@ -9915,7 +9872,6 @@ DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
 DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
 DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
 DOMAIN-SUFFIX,sushi.com,🔰 节点选择
-URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/,🔰 节点选择
 DOMAIN,appleid.apple.com,🔰 节点选择
 DOMAIN,developer.apple.com,🔰 节点选择
 DOMAIN,www.icloud.com,🔰 节点选择
@@ -9955,7 +9911,6 @@ IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
 IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
 DOMAIN-SUFFIX,qhres.com,🎯 全球直连
 DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
-USER-AGENT,%E4%BC%98%E9%85%B7*,🎯 全球直连
 DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
 DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
 DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
@@ -10048,8 +10003,6 @@ DOMAIN-SUFFIX,windowsupdate.microsoft.com,🎯 全球直连
 DOMAIN,download.microsoft.com,🎯 全球直连
 DOMAIN,wustat.windows.com,🎯 全球直连
 DOMAIN,ntservicepack.microsoft.com,🎯 全球直连
-USER-AGENT,NeteaseMusic*,🎯 全球直连
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,🎯 全球直连
 DOMAIN-SUFFIX,163.com,🎯 全球直连
 DOMAIN-SUFFIX,126.com,🎯 全球直连
 DOMAIN-SUFFIX,126.net,🎯 全球直连
@@ -10059,7 +10012,6 @@ DOMAIN-SUFFIX,lofter.com,🎯 全球直连
 DOMAIN-SUFFIX,netease.com,🎯 全球直连
 DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
 DOMAIN-SUFFIX,youdao.com,🎯 全球直连
-USER-AGENT,PayPal*,🎯 全球直连
 DOMAIN-SUFFIX,paypal.com,🎯 全球直连
 DOMAIN-SUFFIX,paypal.me,🎯 全球直连
 DOMAIN-SUFFIX,paypalobjects.com,🎯 全球直连
@@ -10076,9 +10028,6 @@ DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
 DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
 DOMAIN-SUFFIX,steampowered.com,🎯 全球直连
 DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
-USER-AGENT,MicroMessenger*,🎯 全球直连
-USER-AGENT,WeChat*,🎯 全球直连
-USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,🎯 全球直连
 DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
 DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
 DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
@@ -10293,6 +10242,5 @@ DOMAIN-KEYWORD,xunlei,🎯 全球直连
 DOMAIN-KEYWORD,yunpan,🎯 全球直连
 DOMAIN-KEYWORD,Thunder,🎯 全球直连
 DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
-URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=),🎯 全球直连
 GEOIP,CN,🎯 全球直连
 FINAL,🐟 漏网之鱼
