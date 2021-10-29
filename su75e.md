@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://pub-api-1.bianyuan.xyz/sub?target=surfboard&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FNoyaxD%2FfdasGOdfsafsaDfasd56f4as%40main%2Ftest.md&insert=false interval=86400 strict=false
+#!MANAGED-CONFIG https://pub-api-1.bianyuan.xyz/sub?target=surfboard&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FNoyaxD%2FfdasGOdfsafsaDfasd56f4as%40main%2FTest.md&insert=false interval=86400 strict=false
 
 [General]
 loglevel = notify
@@ -11,37 +11,41 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-V2ray-HeroKu-美国1[Source] = vmess, xdmyapp.herokuapp.com, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=xdmyapp.herokuapp.com, ws-headers=Host:xdmyapp.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
-V2ray-HeroKu-美国1[IP优选-US] = vmess, 104.19.39.55, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-V2ray-HeroKu-美国1[IP优选-HK] = vmess, 104.16.151.251, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-V2ray-HeroKu-美国1-移动优化 = vmess, 104.16.241.62, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-V2ray-HeroKu-美国2[Source] = vmess, xdmytwapp.herokuapp.com, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=xdmytwapp.herokuapp.com, ws-headers=Host:xdmytwapp.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
-V2ray-HeroKu-美国2[IP优选-US] = vmess, 104.19.39.55, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-V2ray-HeroKu-美国2[IP优选-HK] = vmess, 104.16.151.251, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-V2ray-HeroKu-美国2-移动优化 = vmess, 104.16.241.62, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-美国3[Source] = vmess, myappsonex7.herokuapp.com, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=myappsonex7.herokuapp.com, ws-headers=Host:myappsonex7.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-美国3[IP优选-US] = vmess, 104.19.39.55, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-美国3[IP优选-HK] = vmess, 104.16.151.251, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-美国3-移动优化 = vmess, 104.16.241.62, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-欧洲1[Source] = vmess, myapptwox7.herokuapp.com, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=myapptwox7.herokuapp.com, ws-headers=Host:myapptwox7.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-欧洲1[IP优选-US] = vmess, 104.19.39.55, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-欧洲1[IP优选-HK] = vmess, 104.16.151.251, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
-Xray-HeroKu-欧洲1-移动优化 = vmess, 104.16.241.62, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国1-A = vmess, 104.19.39.55, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国1-B = vmess, 104.16.151.251, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国1-C = vmess, 104.16.241.62, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国1-D = vmess, 104.19.161.250, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=shiny-hill-2246.jzliu025.workers.dev, ws-headers=Host:shiny-hill-2246.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国1-Source = vmess, xdmyapp.herokuapp.com, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=xdmyapp.herokuapp.com, ws-headers=Host:xdmyapp.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国2-A = vmess, 104.19.39.55, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国2-B = vmess, 104.16.151.251, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国2-C = vmess, 104.16.241.62, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国2-D = vmess, 104.19.161.250, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=royal-shadow-5bc3.jzliu025.workers.dev, ws-headers=Host:royal-shadow-5bc3.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+V2ray-美国2-Source = vmess, xdmytwapp.herokuapp.com, 443, username=ad806487-2d26-4636-98b6-ab85cc8521f7, tls=true, tls13=false, ws=true, ws-path=/, sni=xdmytwapp.herokuapp.com, ws-headers=Host:xdmytwapp.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-美国3-A = vmess, 104.19.39.55, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-美国3-B = vmess, 104.16.151.251, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-美国3-C = vmess, 104.16.241.62, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-美国3-D = vmess, 104.19.161.250, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=restless-field-f7a8.jzliu025.workers.dev, ws-headers=Host:restless-field-f7a8.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-美国3-Source = vmess, myappsonex7.herokuapp.com, 443, username=36d258c6-09f0-461d-b9aa-8eecfe8a1378, tls=true, tls13=false, ws=true, ws-path=/36d258c6-09f0-461d-b9aa-8eecfe8a1378-vmess, sni=myappsonex7.herokuapp.com, ws-headers=Host:myappsonex7.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-欧洲1-A = vmess, 104.19.39.55, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-欧洲1-B = vmess, 104.16.151.251, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-欧洲1-C = vmess, 104.16.241.62, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-欧洲1-D = vmess, 104.19.161.250, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=rough-term-6d3d.jzliu025.workers.dev, ws-headers=Host:rough-term-6d3d.jzliu025.workers.dev, skip-cert-verify=1, tfo=false, udp-relay=true
+Xray-欧洲1-Source = vmess, myapptwox7.herokuapp.com, 443, username=c4d7e2a2-c6e7-4915-a28e-86d446a8e0af, tls=true, tls13=false, ws=true, ws-path=/c4d7e2a2-c6e7-4915-a28e-86d446a8e0af-vmess, sni=myapptwox7.herokuapp.com, ws-headers=Host:myapptwox7.herokuapp.com, skip-cert-verify=1, tfo=false, udp-relay=true
 🎯 全球直连 = direct
 
 [Proxy Group]
-🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
-♻️ 自动选择 = url-test,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化,url=http://www.gstatic.com/generate_204,interval=300,timeout=5
-🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
+🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source
+♻️ 自动选择 = url-test,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source,url=http://www.gstatic.com/generate_204,interval=300,timeout=5
+🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source
 ⛔️ 广告拦截 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
 🚫 运营劫持 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
-🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
+🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source
 🌏 国内媒体 = select,🎯 全球直连,🔰 节点选择
-Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
-📲 电报信息 = select,🔰 节点选择,🎯 全球直连,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
-🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
+Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source
+📲 电报信息 = select,🔰 节点选择,🎯 全球直连,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source
+🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,V2ray-HeroKu-美国1[Source],V2ray-HeroKu-美国1[IP优选-US],V2ray-HeroKu-美国1[IP优选-HK],V2ray-HeroKu-美国1-移动优化,V2ray-HeroKu-美国2[Source],V2ray-HeroKu-美国2[IP优选-US],V2ray-HeroKu-美国2[IP优选-HK],V2ray-HeroKu-美国2-移动优化,Xray-HeroKu-美国3[Source],Xray-HeroKu-美国3[IP优选-US],Xray-HeroKu-美国3[IP优选-HK],Xray-HeroKu-美国3-移动优化,Xray-HeroKu-欧洲1[Source],Xray-HeroKu-欧洲1[IP优选-US],Xray-HeroKu-欧洲1[IP优选-HK],Xray-HeroKu-欧洲1-移动优化
+🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,V2ray-美国1-A,V2ray-美国1-B,V2ray-美国1-C,V2ray-美国1-D,V2ray-美国1-Source,V2ray-美国2-A,V2ray-美国2-B,V2ray-美国2-C,V2ray-美国2-D,V2ray-美国2-Source,Xray-美国3-A,Xray-美国3-B,Xray-美国3-C,Xray-美国3-D,Xray-美国3-Source,Xray-欧洲1-A,Xray-欧洲1-B,Xray-欧洲1-C,Xray-欧洲1-D,Xray-欧洲1-Source
 
 [Rule]
 DOMAIN-SUFFIX,local,🎯 全球直连
@@ -9662,6 +9666,589 @@ DOMAIN-SUFFIX,notion.so,🔰 节点选择
 DOMAIN-SUFFIX,now.com,🔰 节点选择
 DOMAIN-SUFFIX,nrk.no,🔰 节点选择
 DOMAIN-SUFFIX,nuget.org,🔰 节点选择
+DOMAIN-SUFFIX,nyaa.si,🔰 节点选择
+DOMAIN-SUFFIX,ok.ru,🔰 节点选择
+DOMAIN-SUFFIX,on.cc,🔰 节点选择
+DOMAIN-SUFFIX,orientaldaily.com.my,🔰 节点选择
+DOMAIN-SUFFIX,overcast.fm,🔰 节点选择
+DOMAIN-SUFFIX,paltalk.com,🔰 节点选择
+DOMAIN-SUFFIX,parsevideo.com,🔰 节点选择
+DOMAIN-SUFFIX,pawoo.net,🔰 节点选择
+DOMAIN-SUFFIX,pbxes.com,🔰 节点选择
+DOMAIN-SUFFIX,pcdvd.com.tw,🔰 节点选择
+DOMAIN-SUFFIX,pchome.com.tw,🔰 节点选择
+DOMAIN-SUFFIX,pcloud.com,🔰 节点选择
+DOMAIN-SUFFIX,peing.net,🔰 节点选择
+DOMAIN-SUFFIX,picacomic.com,🔰 节点选择
+DOMAIN-SUFFIX,pinimg.com,🔰 节点选择
+DOMAIN-SUFFIX,player.fm,🔰 节点选择
+DOMAIN-SUFFIX,plurk.com,🔰 节点选择
+DOMAIN-SUFFIX,po18.tw,🔰 节点选择
+DOMAIN-SUFFIX,potato.im,🔰 节点选择
+DOMAIN-SUFFIX,potatso.com,🔰 节点选择
+DOMAIN-SUFFIX,prism-break.org,🔰 节点选择
+DOMAIN-SUFFIX,proxifier.com,🔰 节点选择
+DOMAIN-SUFFIX,pt.im,🔰 节点选择
+DOMAIN-SUFFIX,pts.org.tw,🔰 节点选择
+DOMAIN-SUFFIX,pubu.com.tw,🔰 节点选择
+DOMAIN-SUFFIX,pubu.tw,🔰 节点选择
+DOMAIN-SUFFIX,pureapk.com,🔰 节点选择
+DOMAIN-SUFFIX,quora.com,🔰 节点选择
+DOMAIN-SUFFIX,quoracdn.net,🔰 节点选择
+DOMAIN-SUFFIX,qz.com,🔰 节点选择
+DOMAIN-SUFFIX,radio.garden,🔰 节点选择
+DOMAIN-SUFFIX,rakuten.co.jp,🔰 节点选择
+DOMAIN-SUFFIX,rarbgprx.org,🔰 节点选择
+DOMAIN-SUFFIX,reabble.com,🔰 节点选择
+DOMAIN-SUFFIX,readingtimes.com.tw,🔰 节点选择
+DOMAIN-SUFFIX,readmoo.com,🔰 节点选择
+DOMAIN-SUFFIX,redbubble.com,🔰 节点选择
+DOMAIN-SUFFIX,resilio.com,🔰 节点选择
+DOMAIN-SUFFIX,reuters.com,🔰 节点选择
+DOMAIN-SUFFIX,reutersmedia.net,🔰 节点选择
+DOMAIN-SUFFIX,rfi.fr,🔰 节点选择
+DOMAIN-SUFFIX,roadshow.hk,🔰 节点选择
+DOMAIN-SUFFIX,rsshub.app,🔰 节点选择
+DOMAIN-SUFFIX,scmp.com,🔰 节点选择
+DOMAIN-SUFFIX,scribd.com,🔰 节点选择
+DOMAIN-SUFFIX,seatguru.com,🔰 节点选择
+DOMAIN-SUFFIX,shadowsocks.org,🔰 节点选择
+DOMAIN-SUFFIX,shindanmaker.com,🔰 节点选择
+DOMAIN-SUFFIX,shopee.tw,🔰 节点选择
+DOMAIN-SUFFIX,signal.org,🔰 节点选择
+DOMAIN-SUFFIX,sina.com.hk,🔰 节点选择
+DOMAIN-SUFFIX,slideshare.net,🔰 节点选择
+DOMAIN-SUFFIX,softfamous.com,🔰 节点选择
+DOMAIN-SUFFIX,spiegel.de,🔰 节点选择
+DOMAIN-SUFFIX,startpage.com,🔰 节点选择
+DOMAIN-SUFFIX,steamcommunity.com,🔰 节点选择
+DOMAIN-SUFFIX,steemit.com,🔰 节点选择
+DOMAIN-SUFFIX,steemitwallet.com,🔰 节点选择
+DOMAIN-SUFFIX,straitstimes.com,🔰 节点选择
+DOMAIN-SUFFIX,streamable.com,🔰 节点选择
+DOMAIN-SUFFIX,streema.com,🔰 节点选择
+DOMAIN-SUFFIX,substack.com,🔰 节点选择
+DOMAIN-SUFFIX,t66y.com,🔰 节点选择
+DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
+DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
+DOMAIN-SUFFIX,teco-mo.org,🔰 节点选择
+DOMAIN-SUFFIX,teddysun.com,🔰 节点选择
+DOMAIN-SUFFIX,textnow.me,🔰 节点选择
+DOMAIN-SUFFIX,theguardian.com,🔰 节点选择
+DOMAIN-SUFFIX,theinitium.com,🔰 节点选择
+DOMAIN-SUFFIX,themoviedb.org,🔰 节点选择
+DOMAIN-SUFFIX,thetvdb.com,🔰 节点选择
+DOMAIN-SUFFIX,time.com,🔰 节点选择
+DOMAIN-SUFFIX,tineye.com,🔰 节点选择
+DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
+DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
+DOMAIN-SUFFIX,torproject.org,🔰 节点选择
+DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
+DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
+DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
+DOMAIN-SUFFIX,tvboxnow.com,🔰 节点选择
+DOMAIN-SUFFIX,udn.com,🔰 节点选择
+DOMAIN-SUFFIX,unseen.is,🔰 节点选择
+DOMAIN-SUFFIX,upmedia.mg,🔰 节点选择
+DOMAIN-SUFFIX,uptodown.com,🔰 节点选择
+DOMAIN-SUFFIX,urbandictionary.com,🔰 节点选择
+DOMAIN-SUFFIX,ustream.tv,🔰 节点选择
+DOMAIN-SUFFIX,uwants.com,🔰 节点选择
+DOMAIN-SUFFIX,v2ex.com,🔰 节点选择
+DOMAIN-SUFFIX,v2fly.org,🔰 节点选择
+DOMAIN-SUFFIX,v2ray.com,🔰 节点选择
+DOMAIN-SUFFIX,viber.com,🔰 节点选择
+DOMAIN-SUFFIX,videopress.com,🔰 节点选择
+DOMAIN-SUFFIX,vimeo.com,🔰 节点选择
+DOMAIN-SUFFIX,voachinese.com,🔰 节点选择
+DOMAIN-SUFFIX,voanews.com,🔰 节点选择
+DOMAIN-SUFFIX,voxer.com,🔰 节点选择
+DOMAIN-SUFFIX,vzw.com,🔰 节点选择
+DOMAIN-SUFFIX,w3schools.com,🔰 节点选择
+DOMAIN-SUFFIX,washingtonpost.com,🔰 节点选择
+DOMAIN-SUFFIX,wattpad.com,🔰 节点选择
+DOMAIN-SUFFIX,whoer.net,🔰 节点选择
+DOMAIN-SUFFIX,wikiwand.com,🔰 节点选择
+DOMAIN-SUFFIX,winudf.com,🔰 节点选择
+DOMAIN-SUFFIX,wire.com,🔰 节点选择
+DOMAIN-SUFFIX,wn.com,🔰 节点选择
+DOMAIN-SUFFIX,wordpress.com,🔰 节点选择
+DOMAIN-SUFFIX,worldcat.org,🔰 节点选择
+DOMAIN-SUFFIX,wsj.com,🔰 节点选择
+DOMAIN-SUFFIX,wsj.net,🔰 节点选择
+DOMAIN-SUFFIX,xhamster.com,🔰 节点选择
+DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰 节点选择
+DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 节点选择
+DOMAIN-SUFFIX,xnxx.com,🔰 节点选择
+DOMAIN-SUFFIX,xvideos.com,🔰 节点选择
+DOMAIN-SUFFIX,yadi.sk,🔰 节点选择
+DOMAIN-SUFFIX,yahoo.com,🔰 节点选择
+DOMAIN-SUFFIX,yandex.ru,🔰 节点选择
+DOMAIN-SUFFIX,ycombinator.com,🔰 节点选择
+DOMAIN-SUFFIX,yesasia.com,🔰 节点选择
+DOMAIN-SUFFIX,yes-news.com,🔰 节点选择
+DOMAIN-SUFFIX,yomiuri.co.jp,🔰 节点选择
+DOMAIN-SUFFIX,you-get.org,🔰 节点选择
+DOMAIN-SUFFIX,zaobao.com,🔰 节点选择
+DOMAIN-SUFFIX,zello.com,🔰 节点选择
+DOMAIN-SUFFIX,zeronet.io,🔰 节点选择
+DOMAIN-SUFFIX,z-lib.org,🔰 节点选择
+DOMAIN-SUFFIX,zoom.us,🔰 节点选择
+DOMAIN,cc.tvbs.com.tw,🔰 节点选择
+DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 节点选择
+DOMAIN,us.weibo.com,🔰 节点选择
+DOMAIN-SUFFIX,edu,🔰 节点选择
+DOMAIN-SUFFIX,gov,🔰 节点选择
+DOMAIN-SUFFIX,mil,🔰 节点选择
+DOMAIN-SUFFIX,abc.xyz,🔰 节点选择
+DOMAIN-SUFFIX,advertisercommunity.com,🔰 节点选择
+DOMAIN-SUFFIX,ampproject.org,🔰 节点选择
+DOMAIN-SUFFIX,android.com,🔰 节点选择
+DOMAIN-SUFFIX,androidify.com,🔰 节点选择
+DOMAIN-SUFFIX,autodraw.com,🔰 节点选择
+DOMAIN-SUFFIX,capitalg.com,🔰 节点选择
+DOMAIN-SUFFIX,certificate-transparency.org,🔰 节点选择
+DOMAIN-SUFFIX,chrome.com,🔰 节点选择
+DOMAIN-SUFFIX,chromeexperiments.com,🔰 节点选择
+DOMAIN-SUFFIX,chromestatus.com,🔰 节点选择
+DOMAIN-SUFFIX,chromium.org,🔰 节点选择
+DOMAIN-SUFFIX,creativelab5.com,🔰 节点选择
+DOMAIN-SUFFIX,debug.com,🔰 节点选择
+DOMAIN-SUFFIX,deepmind.com,🔰 节点选择
+DOMAIN-SUFFIX,dialogflow.com,🔰 节点选择
+DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择
+DOMAIN-SUFFIX,getmdl.io,🔰 节点选择
+DOMAIN-SUFFIX,ggpht.com,🔰 节点选择
+DOMAIN-SUFFIX,gmail.com,🔰 节点选择
+DOMAIN-SUFFIX,gmodules.com,🔰 节点选择
+DOMAIN-SUFFIX,godoc.org,🔰 节点选择
+DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
+DOMAIN-SUFFIX,gv.com,🔰 节点选择
+DOMAIN-SUFFIX,gwtproject.org,🔰 节点选择
+DOMAIN-SUFFIX,itasoftware.com,🔰 节点选择
+DOMAIN-SUFFIX,madewithcode.com,🔰 节点选择
+DOMAIN-SUFFIX,material.io,🔰 节点选择
+DOMAIN-SUFFIX,page.link,🔰 节点选择
+DOMAIN-SUFFIX,polymer-project.org,🔰 节点选择
+DOMAIN-SUFFIX,recaptcha.net,🔰 节点选择
+DOMAIN-SUFFIX,shattered.io,🔰 节点选择
+DOMAIN-SUFFIX,synergyse.com,🔰 节点选择
+DOMAIN-SUFFIX,telephony.goog,🔰 节点选择
+DOMAIN-SUFFIX,tensorflow.org,🔰 节点选择
+DOMAIN-SUFFIX,tfhub.dev,🔰 节点选择
+DOMAIN-SUFFIX,tiltbrush.com,🔰 节点选择
+DOMAIN-SUFFIX,waveprotocol.org,🔰 节点选择
+DOMAIN-SUFFIX,waymo.com,🔰 节点选择
+DOMAIN-SUFFIX,webmproject.org,🔰 节点选择
+DOMAIN-SUFFIX,webrtc.org,🔰 节点选择
+DOMAIN-SUFFIX,whatbrowser.org,🔰 节点选择
+DOMAIN-SUFFIX,widevine.com,🔰 节点选择
+DOMAIN-SUFFIX,x.company,🔰 节点选择
+DOMAIN-SUFFIX,youtu.be,🔰 节点选择
+DOMAIN-SUFFIX,yt.be,🔰 节点选择
+DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+DOMAIN-SUFFIX,t.me,🔰 节点选择
+DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择
+DOMAIN-SUFFIX,telegram.me,🔰 节点选择
+DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
+DOMAIN-KEYWORD,.facebook.,🔰 节点选择
+DOMAIN-SUFFIX,facebookmail.com,🔰 节点选择
+DOMAIN-SUFFIX,noxinfluencer.com,🔰 节点选择
+DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择
+DOMAIN-SUFFIX,weebly.com,🔰 节点选择
+DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
+DOMAIN-SUFFIX,appsto.re,🔰 节点选择
+DOMAIN,books.itunes.apple.com,🔰 节点选择
+DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
+DOMAIN,beta.music.apple.com,🔰 节点选择
+DOMAIN,tv.apple.com,🔰 节点选择
+DOMAIN,apps.apple.com,🔰 节点选择
+DOMAIN,itunes.apple.com,🔰 节点选择
+DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+DOMAIN,lookup-api.apple.com,🔰 节点选择
+DOMAIN-SUFFIX,go.dev,🔰 节点选择
+DOMAIN-SUFFIX,golang.org,🔰 节点选择
+DOMAIN-SUFFIX,bing.com,🔰 节点选择
+DOMAIN-SUFFIX,cccat.io,🔰 节点选择
+DOMAIN-SUFFIX,dubox.com,🔰 节点选择
+DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
+DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
+DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
+DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
+DOMAIN-SUFFIX,sushi.com,🔰 节点选择
+DOMAIN,appleid.apple.com,🔰 节点选择
+DOMAIN,developer.apple.com,🔰 节点选择
+DOMAIN,www.icloud.com,🔰 节点选择
+DOMAIN,ocsp.apple.com,🔰 节点选择
+DOMAIN,xp.apple.com,🔰 节点选择
+DOMAIN,cacerts.digicert.com,🔰 节点选择
+DOMAIN,crl3.digicert.com,🔰 节点选择
+DOMAIN,crl4.digicert.com,🔰 节点选择
+DOMAIN,ocsp.digicert.com,🔰 节点选择
+DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
+DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
+DOMAIN-SUFFIX,metapix.net,🔰 节点选择
+DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
+DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
+DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
+DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+DOMAIN-SUFFIX,apple.co,🍎 苹果服务
+DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
+DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+DOMAIN-SUFFIX,me.com,🍎 苹果服务
+DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
+DOMAIN-KEYWORD,icloud.com.akadns.net,🍎 苹果服务
+IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
+IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
+IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
+IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
+IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
+IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
+IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
+IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+DOMAIN-SUFFIX,qhres.com,🎯 全球直连
+DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
+DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
+DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
+DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
+DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
+DOMAIN-SUFFIX,alipay.com,🎯 全球直连
+DOMAIN-SUFFIX,amap.com,🎯 全球直连
+DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
+DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
+DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
+DOMAIN-SUFFIX,soku.com,🎯 全球直连
+DOMAIN-SUFFIX,taobao.com,🎯 全球直连
+DOMAIN-SUFFIX,tmall.com,🎯 全球直连
+DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
+DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
+DOMAIN-SUFFIX,youku.com,🎯 全球直连
+DOMAIN-SUFFIX,xiami.com,🎯 全球直连
+DOMAIN-SUFFIX,xiami.net,🎯 全球直连
+DOMAIN-SUFFIX,aaplimg.com,🎯 全球直连
+DOMAIN-SUFFIX,apple.co,🎯 全球直连
+DOMAIN-SUFFIX,apple.com,🎯 全球直连
+DOMAIN-SUFFIX,apple-cloudkit.com,🎯 全球直连
+DOMAIN-SUFFIX,appstore.com,🎯 全球直连
+DOMAIN-SUFFIX,cdn-apple.com,🎯 全球直连
+DOMAIN-SUFFIX,icloud.com,🎯 全球直连
+DOMAIN-SUFFIX,icloud-content.com,🎯 全球直连
+DOMAIN-SUFFIX,me.com,🎯 全球直连
+DOMAIN-SUFFIX,mzstatic.com,🎯 全球直连
+DOMAIN-SUFFIX,baidu.com,🎯 全球直连
+DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
+DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
+DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
+DOMAIN-SUFFIX,bdimg.com,🎯 全球直连
+DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
+DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
+DOMAIN-SUFFIX,battle.net,🎯 全球直连
+DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
+DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
+DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
+DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
+DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
+DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
+DOMAIN-SUFFIX,pstatp.com,🎯 全球直连
+DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
+DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
+DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
+DOMAIN-SUFFIX,cctv.com,🎯 全球直连
+DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
+DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+DOMAIN-SUFFIX,21cn.com,🎯 全球直连
+DOMAIN-SUFFIX,didialift.com,🎯 全球直连
+DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
+DOMAIN-SUFFIX,udache.com,🎯 全球直连
+DOMAIN-SUFFIX,hitv.com,🎯 全球直连
+DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
+DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
+DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直连
+DOMAIN-SUFFIX,71.am,🎯 全球直连
+DOMAIN-SUFFIX,jd.com,🎯 全球直连
+DOMAIN-SUFFIX,jd.hk,🎯 全球直连
+DOMAIN-SUFFIX,jdpay.com,🎯 全球直连
+DOMAIN-SUFFIX,360buyimg.com,🎯 全球直连
+DOMAIN-SUFFIX,iciba.com,🎯 全球直连
+DOMAIN-SUFFIX,ksosoft.com,🎯 全球直连
+DOMAIN-SUFFIX,meitu.com,🎯 全球直连
+DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
+DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
+DOMAIN-SUFFIX,meipai.com,🎯 全球直连
+DOMAIN-SUFFIX,dianping.com,🎯 全球直连
+DOMAIN-SUFFIX,dpfile.com,🎯 全球直连
+DOMAIN-SUFFIX,meituan.com,🎯 全球直连
+DOMAIN-SUFFIX,meituan.net,🎯 全球直连
+DOMAIN-SUFFIX,duokan.com,🎯 全球直连
+DOMAIN-SUFFIX,mi.com,🎯 全球直连
+DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
+DOMAIN-SUFFIX,miui.com,🎯 全球直连
+DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
+DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
+DOMAIN-SUFFIX,visualstudio.com,🎯 全球直连
+DOMAIN-SUFFIX,hotmail.com,🎯 全球直连
+DOMAIN-SUFFIX,outlook.com,🎯 全球直连
+DOMAIN,outlook.office365.com,🎯 全球直连
+DOMAIN,smtp.office365.com,🎯 全球直连
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,🎯 全球直连
+DOMAIN-SUFFIX,update.microsoft.com,🎯 全球直连
+DOMAIN-SUFFIX,windowsupdate.com,🎯 全球直连
+DOMAIN-SUFFIX,windowsupdate.microsoft.com,🎯 全球直连
+DOMAIN,download.microsoft.com,🎯 全球直连
+DOMAIN,wustat.windows.com,🎯 全球直连
+DOMAIN,ntservicepack.microsoft.com,🎯 全球直连
+DOMAIN-SUFFIX,163.com,🎯 全球直连
+DOMAIN-SUFFIX,126.com,🎯 全球直连
+DOMAIN-SUFFIX,126.net,🎯 全球直连
+DOMAIN-SUFFIX,127.net,🎯 全球直连
+DOMAIN-SUFFIX,163yun.com,🎯 全球直连
+DOMAIN-SUFFIX,lofter.com,🎯 全球直连
+DOMAIN-SUFFIX,netease.com,🎯 全球直连
+DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
+DOMAIN-SUFFIX,youdao.com,🎯 全球直连
+DOMAIN-SUFFIX,paypal.com,🎯 全球直连
+DOMAIN-SUFFIX,paypal.me,🎯 全球直连
+DOMAIN-SUFFIX,paypalobjects.com,🎯 全球直连
+DOMAIN-SUFFIX,sina.com,🎯 全球直连
+DOMAIN-SUFFIX,weibo.com,🎯 全球直连
+DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
+DOMAIN-SUFFIX,sohu.com,🎯 全球直连
+DOMAIN-SUFFIX,sohucs.com,🎯 全球直连
+DOMAIN-SUFFIX,sohu-inc.com,🎯 全球直连
+DOMAIN-SUFFIX,v-56.com,🎯 全球直连
+DOMAIN-SUFFIX,sogo.com,🎯 全球直连
+DOMAIN-SUFFIX,sogou.com,🎯 全球直连
+DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
+DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+DOMAIN-SUFFIX,steampowered.com,🎯 全球直连
+DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
+DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
+DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
+DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
+DOMAIN-SUFFIX,myapp.com,🎯 全球直连
+DOMAIN-SUFFIX,myqcloud.com,🎯 全球直连
+DOMAIN-SUFFIX,qq.com,🎯 全球直连
+DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
+DOMAIN-SUFFIX,servicewechat.com,🎯 全球直连
+DOMAIN-SUFFIX,tencent.com,🎯 全球直连
+DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
+DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
+DOMAIN-SUFFIX,wechat.com,🎯 全球直连
+DOMAIN,file-igamecj.akamaized.net,🎯 全球直连
+IP-CIDR,101.32.104.4/32,🎯 全球直连,no-resolve
+IP-CIDR,101.32.104.41/32,🎯 全球直连,no-resolve
+IP-CIDR,101.32.104.56/32,🎯 全球直连,no-resolve
+IP-CIDR,101.32.118.25/32,🎯 全球直连,no-resolve
+IP-CIDR,101.32.133.16/32,🎯 全球直连,no-resolve
+IP-CIDR,101.32.133.53/32,🎯 全球直连,no-resolve
+IP-CIDR,101.32.133.209/32,🎯 全球直连,no-resolve
+IP-CIDR,129.226.3.47/32,🎯 全球直连,no-resolve
+IP-CIDR,129.226.107.244/32,🎯 全球直连,no-resolve
+IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
+IP-CIDR,203.205.254.0/23,🎯 全球直连,no-resolve
+DOMAIN-SUFFIX,ccgslb.com,🎯 全球直连
+DOMAIN-SUFFIX,ccgslb.net,🎯 全球直连
+DOMAIN-SUFFIX,chinanetcenter.com,🎯 全球直连
+DOMAIN-SUFFIX,meixincdn.com,🎯 全球直连
+DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+DOMAIN-SUFFIX,staticdn.net,🎯 全球直连
+DOMAIN-SUFFIX,wangsu.com,🎯 全球直连
+DOMAIN-SUFFIX,ipip.net,🎯 全球直连
+DOMAIN-SUFFIX,ip.la,🎯 全球直连
+DOMAIN-SUFFIX,ip.sb,🎯 全球直连
+DOMAIN-SUFFIX,ip-cdn.com,🎯 全球直连
+DOMAIN-SUFFIX,ipv6-test.com,🎯 全球直连
+DOMAIN-SUFFIX,myip.la,🎯 全球直连
+DOMAIN-SUFFIX,test-ipv6.com,🎯 全球直连
+DOMAIN-SUFFIX,whatismyip.com,🎯 全球直连
+DOMAIN,ip.istatmenus.app,🎯 全球直连
+DOMAIN,sms.imagetasks.com,🎯 全球直连
+DOMAIN-SUFFIX,netspeedtestmaster.com,🎯 全球直连
+DOMAIN,speedtest.macpaw.com,🎯 全球直连
+DOMAIN-SUFFIX,acg.rip,🎯 全球直连
+DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+DOMAIN-SUFFIX,comicat.org,🎯 全球直连
+DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
+DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
+DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
+DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
+DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+DOMAIN-SUFFIX,open.cd,🎯 全球直连
+DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
+DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+DOMAIN-SUFFIX,cn,🎯 全球直连
+DOMAIN-SUFFIX,115.com,🎯 全球直连
+DOMAIN-SUFFIX,360in.com,🎯 全球直连
+DOMAIN-SUFFIX,51ym.me,🎯 全球直连
+DOMAIN-SUFFIX,8686c.com,🎯 全球直连
+DOMAIN-SUFFIX,99.com,🎯 全球直连
+DOMAIN-SUFFIX,abchina.com,🎯 全球直连
+DOMAIN-SUFFIX,accuweather.com,🎯 全球直连
+DOMAIN-SUFFIX,agora.io,🎯 全球直连
+DOMAIN-SUFFIX,aicoinstorge.com,🎯 全球直连
+DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
+DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
+DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
+DOMAIN-SUFFIX,amd.com,🎯 全球直连
+DOMAIN-SUFFIX,b612.net,🎯 全球直连
+DOMAIN-SUFFIX,bdatu.com,🎯 全球直连
+DOMAIN-SUFFIX,beitaichufang.com,🎯 全球直连
+DOMAIN-SUFFIX,booking.com,🎯 全球直连
+DOMAIN-SUFFIX,bstatic.com,🎯 全球直连
+DOMAIN-SUFFIX,cailianpress.com,🎯 全球直连
+DOMAIN-SUFFIX,camera360.com,🎯 全球直连
+DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
+DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
+DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
+DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
+DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
+DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
+DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
+DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
+DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
+DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
+DOMAIN-SUFFIX,dji.net,🎯 全球直连
+DOMAIN-SUFFIX,docschina.org,🎯 全球直连
+DOMAIN-SUFFIX,douban.com,🎯 全球直连
+DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
+DOMAIN-SUFFIX,douyu.com,🎯 全球直连
+DOMAIN-SUFFIX,dxycdn.com,🎯 全球直连
+DOMAIN-SUFFIX,dytt8.net,🎯 全球直连
+DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
+DOMAIN-SUFFIX,eudic.net,🎯 全球直连
+DOMAIN-SUFFIX,feng.com,🎯 全球直连
+DOMAIN-SUFFIX,fengkongcloud.com,🎯 全球直连
+DOMAIN-SUFFIX,frdic.com,🎯 全球直连
+DOMAIN-SUFFIX,futu5.com,🎯 全球直连
+DOMAIN-SUFFIX,futunn.com,🎯 全球直连
+DOMAIN-SUFFIX,gandi.net,🎯 全球直连
+DOMAIN-SUFFIX,gcores.com,🎯 全球直连
+DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
+DOMAIN-SUFFIX,getpricetag.com,🎯 全球直连
+DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
+DOMAIN-SUFFIX,godic.net,🎯 全球直连
+DOMAIN-SUFFIX,heweather.net,🎯 全球直连
+DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+DOMAIN-SUFFIX,hongxiu.com,🎯 全球直连
+DOMAIN-SUFFIX,hostbuf.com,🎯 全球直连
+DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
+DOMAIN-SUFFIX,huya.com,🎯 全球直连
+DOMAIN-SUFFIX,ibm.com,🎯 全球直连
+DOMAIN-SUFFIX,infinitynewtab.com,🎯 全球直连
+DOMAIN-SUFFIX,ithome.com,🎯 全球直连
+DOMAIN-SUFFIX,java.com,🎯 全球直连
+DOMAIN-SUFFIX,jianguoyun.com,🎯 全球直连
+DOMAIN-SUFFIX,jianshu.com,🎯 全球直连
+DOMAIN-SUFFIX,jianshu.io,🎯 全球直连
+DOMAIN-SUFFIX,jidian.im,🎯 全球直连
+DOMAIN-SUFFIX,kaiyanapp.com,🎯 全球直连
+DOMAIN-SUFFIX,kaspersky-labs.com,🎯 全球直连
+DOMAIN-SUFFIX,keepcdn.com,🎯 全球直连
+DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
+DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
+DOMAIN-SUFFIX,licdn.com,🎯 全球直连
+DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
+DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
+DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
+DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
+DOMAIN-SUFFIX,mls-cdn.com,🎯 全球直连
+DOMAIN-SUFFIX,mobike.com,🎯 全球直连
+DOMAIN-SUFFIX,moke.com,🎯 全球直连
+DOMAIN-SUFFIX,mubu.com,🎯 全球直连
+DOMAIN-SUFFIX,myzaker.com,🎯 全球直连
+DOMAIN-SUFFIX,nim-lang-cn.org,🎯 全球直连
+DOMAIN-SUFFIX,ntp.org,🎯 全球直连
+DOMAIN-SUFFIX,nvidia.com,🎯 全球直连
+DOMAIN-SUFFIX,oracle.com,🎯 全球直连
+DOMAIN-SUFFIX,plex.tv,🎯 全球直连
+DOMAIN-SUFFIX,qidian.com,🎯 全球直连
+DOMAIN-SUFFIX,qweather.com,🎯 全球直连
+DOMAIN-SUFFIX,qyer.com,🎯 全球直连
+DOMAIN-SUFFIX,qyerstatic.com,🎯 全球直连
+DOMAIN-SUFFIX,raychase.net,🎯 全球直连
+DOMAIN-SUFFIX,ronghub.com,🎯 全球直连
+DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
+DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
+DOMAIN-SUFFIX,scomper.me,🎯 全球直连
+DOMAIN-SUFFIX,sm.ms,🎯 全球直连
+DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
+DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
+DOMAIN-SUFFIX,snwx.com,🎯 全球直连
+DOMAIN-SUFFIX,s-reader.com,🎯 全球直连
+DOMAIN-SUFFIX,sspai.com,🎯 全球直连
+DOMAIN-SUFFIX,subhd.tv,🎯 全球直连
+DOMAIN-SUFFIX,takungpao.com,🎯 全球直连
+DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+DOMAIN-SUFFIX,tianyancha.com,🎯 全球直连
+DOMAIN-SUFFIX,tophub.today,🎯 全球直连
+DOMAIN-SUFFIX,uning.com,🎯 全球直连
+DOMAIN-SUFFIX,weather.com,🎯 全球直连
+DOMAIN-SUFFIX,weico.cc,🎯 全球直连
+DOMAIN-SUFFIX,weidian.com,🎯 全球直连
+DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
+DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
+DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
+DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直连
+DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
+DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直连
+DOMAIN-SUFFIX,yizhibo.com,🎯 全球直连
+DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直连
+DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
+DOMAIN-SUFFIX,zhihuishu.com,🎯 全球直连
+DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+DOMAIN,download.jetbrains.com,🎯 全球直连
+DOMAIN,images-cn.ssl-images-amazon.com,🎯 全球直连
+PROCESS-NAME,aria2c,🎯 全球直连
+PROCESS-NAME,fdm,🎯 全球直连
+PROCESS-NAME,Folx,🎯 全球直连
+PROCESS-NAME,NetTransport,🎯 全球直连
+PROCESS-NAME,Thunder,🎯 全球直连
+PROCESS-NAME,Transmission,🎯 全球直连
+PROCESS-NAME,uTorrent,🎯 全球直连
+PROCESS-NAME,WebTorrent,🎯 全球直连
+PROCESS-NAME,WebTorrent Helper,🎯 全球直连
+PROCESS-NAME,DownloadService,🎯 全球直连
+PROCESS-NAME,Weiyun,🎯 全球直连
+DOMAIN-KEYWORD,aria2,🎯 全球直连
+DOMAIN-KEYWORD,xunlei,🎯 全球直连
+DOMAIN-KEYWORD,yunpan,🎯 全球直连
+DOMAIN-KEYWORD,Thunder,🎯 全球直连
+DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+IX,nuget.org,🔰 节点选择
 DOMAIN-SUFFIX,nyaa.si,🔰 节点选择
 DOMAIN-SUFFIX,ok.ru,🔰 节点选择
 DOMAIN-SUFFIX,on.cc,🔰 节点选择
